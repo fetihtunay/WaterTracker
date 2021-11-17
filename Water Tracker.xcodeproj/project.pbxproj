@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65FC115522A6C79800EA9221 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC115422A6C79800EA9221 /* AppDelegate.swift */; };
+		65FC115722A6C79800EA9221 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC115622A6C79800EA9221 /* ViewController.swift */; };
+		65FC115A22A6C79800EA9221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FC115822A6C79800EA9221 /* Main.storyboard */; };
+		65FC115C22A6C79900EA9221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65FC115B22A6C79900EA9221 /* Assets.xcassets */; };
+		65FC115F22A6C79900EA9221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65FC115D22A6C79900EA9221 /* LaunchScreen.storyboard */; };
+		65FC116A22A6C79A00EA9221 /* Water_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC116922A6C79A00EA9221 /* Water_TrackerTests.swift */; };
+		65FC117522A6C79A00EA9221 /* Water_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC117422A6C79A00EA9221 /* Water_TrackerUITests.swift */; };
+		65FC118322A6C9F700EA9221 /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC118222A6C9F700EA9221 /* ReportsViewController.swift */; };
+		65FC118522A6CA3800EA9221 /* Water.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC118422A6CA3800EA9221 /* Water.swift */; };
+		65FC118722A6DE2600EA9221 /* CutomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FC118622A6DE2600EA9221 /* CutomTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65FC116622A6C79A00EA9221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65FC114922A6C79800EA9221 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65FC115022A6C79800EA9221;
+			remoteInfo = "Water Tracker";
+		};
+		65FC117122A6C79A00EA9221 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65FC114922A6C79800EA9221 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65FC115022A6C79800EA9221;
+			remoteInfo = "Water Tracker";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65FC115122A6C79800EA9221 /* Water Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Water Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FC115422A6C79800EA9221 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65FC115622A6C79800EA9221 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65FC115922A6C79800EA9221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65FC115B22A6C79900EA9221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65FC115E22A6C79900EA9221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65FC116022A6C79900EA9221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FC116522A6C79A00EA9221 /* Water TrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Water TrackerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FC116922A6C79A00EA9221 /* Water_TrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Water_TrackerTests.swift; sourceTree = "<group>"; };
+		65FC116B22A6C79A00EA9221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FC117022A6C79A00EA9221 /* Water TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Water TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65FC117422A6C79A00EA9221 /* Water_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Water_TrackerUITests.swift; sourceTree = "<group>"; };
+		65FC117622A6C79A00EA9221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65FC118222A6C9F700EA9221 /* ReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
+		65FC118422A6CA3800EA9221 /* Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Water.swift; sourceTree = "<group>"; };
+		65FC118622A6DE2600EA9221 /* CutomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutomTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65FC114E22A6C79800EA9221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FC116222A6C79A00EA9221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FC116D22A6C79A00EA9221 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65FC114822A6C79800EA9221 = {
+			isa = PBXGroup;
+			children = (
+				65FC115322A6C79800EA9221 /* Water Tracker */,
+				65FC116822A6C79A00EA9221 /* Water TrackerTests */,
+				65FC117322A6C79A00EA9221 /* Water TrackerUITests */,
+				65FC115222A6C79800EA9221 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65FC115222A6C79800EA9221 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65FC115122A6C79800EA9221 /* Water Tracker.app */,
+				65FC116522A6C79A00EA9221 /* Water TrackerTests.xctest */,
+				65FC117022A6C79A00EA9221 /* Water TrackerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65FC115322A6C79800EA9221 /* Water Tracker */ = {
+			isa = PBXGroup;
+			children = (
+				65FC115422A6C79800EA9221 /* AppDelegate.swift */,
+				65FC115622A6C79800EA9221 /* ViewController.swift */,
+				65FC115822A6C79800EA9221 /* Main.storyboard */,
+				65FC115B22A6C79900EA9221 /* Assets.xcassets */,
+				65FC115D22A6C79900EA9221 /* LaunchScreen.storyboard */,
+				65FC116022A6C79900EA9221 /* Info.plist */,
+				65FC118222A6C9F700EA9221 /* ReportsViewController.swift */,
+				65FC118422A6CA3800EA9221 /* Water.swift */,
+				65FC118622A6DE2600EA9221 /* CutomTableViewCell.swift */,
+			);
+			path = "Water Tracker";
+			sourceTree = "<group>";
+		};
+		65FC116822A6C79A00EA9221 /* Water TrackerTests */ = {
+			isa = PBXGroup;
+			children = (
+				65FC116922A6C79A00EA9221 /* Water_TrackerTests.swift */,
+				65FC116B22A6C79A00EA9221 /* Info.plist */,
+			);
+			path = "Water TrackerTests";
+			sourceTree = "<group>";
+		};
+		65FC117322A6C79A00EA9221 /* Water TrackerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65FC117422A6C79A00EA9221 /* Water_TrackerUITests.swift */,
+				65FC117622A6C79A00EA9221 /* Info.plist */,
+			);
+			path = "Water TrackerUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65FC115022A6C79800EA9221 /* Water Tracker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65FC117922A6C79A00EA9221 /* Build configuration list for PBXNativeTarget "Water Tracker" */;
+			buildPhases = (
+				65FC114D22A6C79800EA9221 /* Sources */,
+				65FC114E22A6C79800EA9221 /* Frameworks */,
+				65FC114F22A6C79800EA9221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Water Tracker";
+			productName = "Water Tracker";
+			productReference = 65FC115122A6C79800EA9221 /* Water Tracker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65FC116422A6C79A00EA9221 /* Water TrackerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65FC117C22A6C79A00EA9221 /* Build configuration list for PBXNativeTarget "Water TrackerTests" */;
+			buildPhases = (
+				65FC116122A6C79A00EA9221 /* Sources */,
+				65FC116222A6C79A00EA9221 /* Frameworks */,
+				65FC116322A6C79A00EA9221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65FC116722A6C79A00EA9221 /* PBXTargetDependency */,
+			);
+			name = "Water TrackerTests";
+			productName = "Water TrackerTests";
+			productReference = 65FC116522A6C79A00EA9221 /* Water TrackerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65FC116F22A6C79A00EA9221 /* Water TrackerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65FC117F22A6C79A00EA9221 /* Build configuration list for PBXNativeTarget "Water TrackerUITests" */;
+			buildPhases = (
+				65FC116C22A6C79A00EA9221 /* Sources */,
+				65FC116D22A6C79A00EA9221 /* Frameworks */,
+				65FC116E22A6C79A00EA9221 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65FC117222A6C79A00EA9221 /* PBXTargetDependency */,
+			);
+			name = "Water TrackerUITests";
+			productName = "Water TrackerUITests";
+			productReference = 65FC117022A6C79A00EA9221 /* Water TrackerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65FC114922A6C79800EA9221 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Kiso S Kiso";
+				TargetAttributes = {
+					65FC115022A6C79800EA9221 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					65FC116422A6C79A00EA9221 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 65FC115022A6C79800EA9221;
+					};
+					65FC116F22A6C79A00EA9221 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 65FC115022A6C79800EA9221;
+					};
+				};
+			};
+			buildConfigurationList = 65FC114C22A6C79800EA9221 /* Build configuration list for PBXProject "Water Tracker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65FC114822A6C79800EA9221;
+			productRefGroup = 65FC115222A6C79800EA9221 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65FC115022A6C79800EA9221 /* Water Tracker */,
+				65FC116422A6C79A00EA9221 /* Water TrackerTests */,
+				65FC116F22A6C79A00EA9221 /* Water TrackerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65FC114F22A6C79800EA9221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FC115F22A6C79900EA9221 /* LaunchScreen.storyboard in Resources */,
+				65FC115C22A6C79900EA9221 /* Assets.xcassets in Resources */,
+				65FC115A22A6C79800EA9221 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FC116322A6C79A00EA9221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FC116E22A6C79A00EA9221 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65FC114D22A6C79800EA9221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FC115722A6C79800EA9221 /* ViewController.swift in Sources */,
+				65FC118722A6DE2600EA9221 /* CutomTableViewCell.swift in Sources */,
+				65FC118522A6CA3800EA9221 /* Water.swift in Sources */,
+				65FC118322A6C9F700EA9221 /* ReportsViewController.swift in Sources */,
+				65FC115522A6C79800EA9221 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FC116122A6C79A00EA9221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FC116A22A6C79A00EA9221 /* Water_TrackerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65FC116C22A6C79A00EA9221 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65FC117522A6C79A00EA9221 /* Water_TrackerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65FC116722A6C79A00EA9221 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65FC115022A6C79800EA9221 /* Water Tracker */;
+			targetProxy = 65FC116622A6C79A00EA9221 /* PBXContainerItemProxy */;
+		};
+		65FC117222A6C79A00EA9221 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65FC115022A6C79800EA9221 /* Water Tracker */;
+			targetProxy = 65FC117122A6C79A00EA9221 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65FC115822A6C79800EA9221 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65FC115922A6C79800EA9221 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65FC115D22A6C79900EA9221 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65FC115E22A6C79900EA9221 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65FC117722A6C79A00EA9221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65FC117822A6C79A00EA9221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65FC117A22A6C79A00EA9221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Water Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ftunay.watertracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		65FC117B22A6C79A00EA9221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G7M8TS728C;
+				INFOPLIST_FILE = "Water Tracker/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ftunay.watertracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		65FC117D22A6C79A00EA9221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Water TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kemalapps.memo.Water-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Water Tracker.app/Water Tracker";
+			};
+			name = Debug;
+		};
+		65FC117E22A6C79A00EA9221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Water TrackerTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kemalapps.memo.Water-TrackerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Water Tracker.app/Water Tracker";
+			};
+			name = Release;
+		};
+		65FC118022A6C79A00EA9221 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Water TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kemalapps.memo.Water-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Water Tracker";
+			};
+			name = Debug;
+		};
+		65FC118122A6C79A00EA9221 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Water TrackerUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kemalapps.memo.Water-TrackerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Water Tracker";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65FC114C22A6C79800EA9221 /* Build configuration list for PBXProject "Water Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FC117722A6C79A00EA9221 /* Debug */,
+				65FC117822A6C79A00EA9221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65FC117922A6C79A00EA9221 /* Build configuration list for PBXNativeTarget "Water Tracker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FC117A22A6C79A00EA9221 /* Debug */,
+				65FC117B22A6C79A00EA9221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65FC117C22A6C79A00EA9221 /* Build configuration list for PBXNativeTarget "Water TrackerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FC117D22A6C79A00EA9221 /* Debug */,
+				65FC117E22A6C79A00EA9221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65FC117F22A6C79A00EA9221 /* Build configuration list for PBXNativeTarget "Water TrackerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65FC118022A6C79A00EA9221 /* Debug */,
+				65FC118122A6C79A00EA9221 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65FC114922A6C79800EA9221 /* Project object */;
+}
